@@ -1,0 +1,16 @@
+[
+  {"id": "starter", "name": "Стартовый вуп", "desc": "Аналоговый тинивуп, коробочные очки и классический пульт — с этого начинали все.",
+   "items": ["fr_meteor65", "mo_0702se", "st_aio5a", "vd_ant", "pr_31mm", "bt_300", "gg_ev800d", "rc_fsi6x"]},
+  {"id": "meteor75_hd", "name": "Meteor75 Pro HD", "desc": "Цифровой вуп на Walksnail с очками Goggles L.",
+   "items": ["fr_meteor75pro", "mo_0802se", "st_x12", "vd_ws_1s", "pr_1636", "bt_gnb450", "gg_ws_l", "rc_pocket"]},
+  {"id": "cine_dji", "name": "Синевуп на DJI O4", "desc": "CineLog35 с O4 Pro и Goggles 3 — снимать плавные пролёты в 4K.",
+   "items": ["fr_cinelog35", "mo_speedx2105", "st_blitz", "vd_o4pro", "pr_d90", "bt_gnb6s1100", "gg_dji3", "rc_dji3"]},
+  {"id": "freestyle_hdz", "name": "Фристайл 5\" HDZero", "desc": "Marmotte на HDZero: низкая задержка и неубиваемая рама.",
+   "items": ["fr_marmotte", "mo_f60pro", "st_tmotor", "vd_hdz_free", "pr_watermelon", "bt_gnb1300", "gg_hdz", "rc_boxer"]},
+  {"id": "racer_analog", "name": "Гоночный 5\" аналог", "desc": "Floss 3.0, Nano 4 и Tango 2 — классика гоночных трасс.",
+   "items": ["fr_floss3", "mo_lightning", "st_mamba", "vd_nano4", "pr_51499", "bt_tattu1200", "gg_04x", "rc_tango2"]},
+  {"id": "lr_walksnail", "name": "Лонг-рейндж 7\" Walksnail", "desc": "Chimera7 на Li-Ion — улететь за горизонт и вернуться.",
+   "items": ["fr_chimera7", "mo_velox2808", "st_blitz", "vd_ws_pro", "pr_7x35", "bt_liion42", "gg_ws_x", "rc_tx16s"]},
+  {"id": "racerx", "name": "DRL RacerX", "desc": "Мифический рекордсмен: рама, моторы, золотые очки и пульт.",
+   "items": ["fr_racerx", "mo_redbull", "st_radix", "vd_hdz_race", "pr_r38", "bt_race1550", "gg_gold", "rc_tango_gold"]}
+]

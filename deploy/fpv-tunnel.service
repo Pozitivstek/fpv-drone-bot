@@ -1,0 +1,20 @@
+# Обратный SSH-туннель: VPS 127.0.0.1:8096 → домашний сервер 127.0.0.1:8096 (контейнер FPV-Drons).
+# Ставится на домашний сервер: /etc/systemd/system/fpv-tunnel.service
+[Unit]
+Description=FPV-Drons reverse SSH tunnel to VPS
+After=network-online.target docker.service
+Wants=network-online.target
+
+[Service]
+User=linux
+ExecStart=/usr/bin/ssh -N -T \
+    -i /home/linux/.ssh/fpv_tunnel \
+    -o ServerAliveInterval=30 -o ServerAliveCountMax=3 \
+    -o ExitOnForwardFailure=yes -o StrictHostKeyChecking=yes \
+    -R 127.0.0.1:8096:127.0.0.1:8096 \
+    fpvtunnel@188.130.207.170
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

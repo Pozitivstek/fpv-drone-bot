@@ -1,0 +1,16 @@
+[
+  {"id": "hangar", "name": "Ангар", "theme": "hangar", "desc": "Тесный ангар с неоновыми воротами — рай для вупов.",
+   "seed": 1107, "gates": 12, "spacing": 22, "gate_size": 2.6, "wiggle": 2.2, "obstacles": 0.15, "fee": 0, "reward": 60, "xp": 25, "min_level": 1},
+  {"id": "forest", "name": "Лесная поляна", "theme": "forest", "desc": "Сосны между воротами. Не цепляй ветки.",
+   "seed": 2203, "gates": 16, "spacing": 30, "gate_size": 2.8, "wiggle": 3.0, "obstacles": 0.45, "fee": 40, "reward": 140, "xp": 40, "min_level": 2},
+  {"id": "bando", "name": "Заброшенный завод", "theme": "bando", "desc": "Бандо: колонны, пролёты и ржавые фермы.",
+   "seed": 3319, "gates": 18, "spacing": 28, "gate_size": 2.4, "wiggle": 3.4, "obstacles": 0.6, "fee": 80, "reward": 230, "xp": 55, "min_level": 4},
+  {"id": "stadium", "name": "Неоновый стадион", "theme": "stadium", "desc": "Трасса в стиле DRL: светящиеся ворота и трибуны.",
+   "seed": 4421, "gates": 22, "spacing": 34, "gate_size": 2.5, "wiggle": 3.6, "obstacles": 0.3, "fee": 150, "reward": 380, "xp": 75, "min_level": 6},
+  {"id": "ridge", "name": "Горный хребет", "theme": "ridge", "desc": "Длинная трасса над скалами: тут решает батарея.",
+   "seed": 5503, "gates": 26, "spacing": 48, "gate_size": 3.0, "wiggle": 4.2, "obstacles": 0.35, "fee": 220, "reward": 520, "xp": 95, "min_level": 9},
+  {"id": "city", "name": "Ночной город", "theme": "city", "desc": "Между высотками на скорости. Темно, ярко, страшно.",
+   "seed": 6619, "gates": 26, "spacing": 36, "gate_size": 2.3, "wiggle": 4.0, "obstacles": 0.65, "fee": 320, "reward": 760, "xp": 120, "min_level": 12},
+  {"id": "worlds", "name": "Чемпионат мира", "theme": "worlds", "desc": "Финал лиги. Маленькие ворота, большие деньги.",
+   "seed": 7741, "gates": 30, "spacing": 36, "gate_size": 2.1, "wiggle": 4.6, "obstacles": 0.55, "fee": 500, "reward": 1200, "xp": 160, "min_level": 15}
+]
